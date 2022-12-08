@@ -1,4 +1,4 @@
-FROM python:3.9.15
+FROM python:3.11.1
 
 RUN useradd -ms /bin/bash python
 
