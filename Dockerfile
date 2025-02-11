@@ -8,7 +8,7 @@ WORKDIR /app
 RUN chown -R 1000 /app
 
 RUN pip install --upgrade pip --no-warn-script-location
-RUN apk add --no-cache bash gcc git linux-headersmusl-dev  py3-virtualenv python3-dev
+RUN apk add --no-cache bash gcc git py3-virtualenv python3-dev
 
 RUN mkdir -p /.cache/pip
 RUN chown -R 1000 /.cache/pip
